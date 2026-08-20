@@ -1,70 +1,177 @@
+# Web-Based Task Management System
+
+A web-based task management system built with PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap. The system allows users to securely register, log in, and manage their tasks with status and priority tracking.
+
 ## Live Demo
 
 [View Live Website](https://taskmanagementsystembyera.infinityfreeapp.com/)
-# Web-Based-Task-Management-System
 
-1. Problem Statement
+## Project Overview
 
-Managing daily tasks and deadlines is often difficult for students and professionals. Existing tools may lack simplicity, customization, or accessibility. This project aims to develop a web-based task management system that allows users to organize, track, and manage their tasks efficiently with a simple and user-friendly interface.
+Managing daily tasks and deadlines can be difficult for students and professionals. This project provides a simple and user-friendly platform to organize, track, and manage tasks efficiently.
 
-2. Objectives
-Develop a secure system with user registration and login functionality
-Allow users to add, update, delete, and track tasks
-Categorize tasks into Pending, In Progress, and Completed
-Ensure responsive design across devices
-Store and manage data using a structured MySQL database
-3. Proposed Solution
-3.1 Technology Stack
+## Features
 
-Frontend: HTML, CSS, JavaScript (Bootstrap)
+- User registration and login
+- Secure password hashing
+- Session-based authentication
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Update task status
+- Task priority management
+- Dashboard with task statistics
+- Task categorization
+  - Pending
+  - In Progress
+  - Completed
+- Duplicate email prevention
+- MySQL database integration
+- Responsive user interface
+- User-friendly task management dashboard
 
-Backend: PHP
+## Technology Stack
 
-Database: MySQL
+### Frontend
 
-3.2 Core Features
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
 
-i) User Authentication: Secure registration and login with hashed passwords
+### Backend
 
-ii) Task Management: Add, edit, delete, and update tasks
+- PHP
 
-iii) Task Categorization: Tasks organized into Pending, In Progress, and Completed
+### Database
 
-iv) Dashboard View: Displays total and completed tasks
+- MySQL
 
-v) Responsive UI: Works on desktop, tablet, and mobile devices
+### Development Tools
 
-vi) Secure Data Handling: Prevents duplicate emails and ensures data integrity
+- Visual Studio Code
+- XAMPP
+- Google Chrome
+- draw.io
 
-3.3 Innovative Aspects
-Simple and clean user interface for better usability
-Status-based task tracking system
-Motivational dashboard message for user engagement
-Secure password storage using hashing
-Organized task display using Bootstrap cards
-4. Methodology
+## Screenshots
 
-Software Development Approach: Modular development with separate components
+### Login Page
 
-System Architecture: Client-server model (Frontend + Backend + Database)
+![Login Page](images/login.jpg)
 
-4.1 Key Modules
-User Authentication Module: Handles login, registration, and session management
-Task Management Module: Manages task operations (CRUD)
-Database Design: Two main tables (users and tasks) with relationships
-UI/UX Design: Responsive and visually appealing interface using Bootstrap
-4.2 Expected Challenges & Risks
-Ensuring secure authentication and data protection
-Maintaining responsive design across all devices
-Preventing duplicate user data and ensuring database integrity
-5. Expected Outcomes
+### Registration Page
 
-The system will provide a simple and efficient platform for managing tasks. Users will be able to organize their work, track progress, and improve productivity through a structured and user-friendly interface.
+![Registration Page](images/register.jpg)
 
-6. Tools & Resources Needed
+### Dashboard
 
-Development Tools: XAMPP, Visual Studio Code
+![Dashboard](images/dashboard.jpg)
 
-Testing Environment: Localhost (Apache server)
+## Main Modules
 
-Additional Tools: draw.io (for ER diagram and flowchart), Google Chrome (testing)
+### 1. User Authentication
+
+Handles user registration, login, logout, sessions, and password hashing.
+
+### 2. Task Management
+
+Allows users to add, edit, delete, and manage their tasks.
+
+### 3. Task Status Tracking
+
+Tasks can be categorized into three statuses:
+
+- Pending
+- In Progress
+- Completed
+
+### 4. Task Priority Management
+
+Users can assign priorities to their tasks to help organize and manage important work.
+
+### 5. Dashboard
+
+The dashboard provides an overview of the user's tasks and displays task statistics.
+
+## Database
+
+The project uses MySQL as the database system.
+
+The main database tables are:
+
+- `users`
+- `tasks`
+
+The database structure is provided in:
+
+`TaskManager.sql`
+
+## Local Setup
+
+To run the project locally:
+
+1. Install XAMPP.
+2. Start Apache and MySQL from the XAMPP Control Panel.
+3. Clone this repository.
+4. Place the project folder inside the XAMPP `htdocs` directory.
+5. Create a MySQL database.
+6. Import `TaskManager.sql` into the database.
+7. Configure the database connection in `config.php`.
+8. Open the project through localhost.
+
+## Deployment
+
+The project is deployed using InfinityFree hosting.
+
+GitHub Actions is configured to automatically deploy changes from the `main` branch to the live website.
+
+Any changes pushed to the repository can be deployed automatically through the configured GitHub Actions workflow.
+
+## Project Objectives
+
+- Develop a secure web-based task management system
+- Implement user registration and authentication
+- Provide CRUD operations for tasks
+- Track task progress and status
+- Manage task priorities
+- Store and manage data using MySQL
+- Develop a responsive and user-friendly interface
+
+## System Architecture
+
+The project follows a client-server architecture consisting of:
+
+- Frontend: HTML, CSS, JavaScript, and Bootstrap
+- Backend: PHP
+- Database: MySQL
+
+## Development Methodology
+
+The system was developed using a modular approach with separate components for:
+
+- User authentication
+- Task management
+- Database operations
+- Dashboard
+- User interface
+
+## Future Improvements
+
+- Email notifications
+- Task deadlines and reminders
+- Task search and filtering
+- Admin panel
+- User profile management
+- Task analytics and reports
+- Improved notification system
+
+## Author
+
+**Jarin Tasnim Eara**
+
+GitHub: [@jarin-tasnim-eara](https://github.com/jarin-tasnim-eara)
+
+**Jarin Tasnim Eara**
+
+GitHub: [@jarin-tasnim-eara](https://github.com/jarin-tasnim-eara)
