@@ -54,20 +54,6 @@ Managing daily tasks and deadlines can be difficult for students and professiona
 - Google Chrome
 - draw.io
 
-## Screenshots
-
-### Login Page
-
-![Login Page](images/login.jpg)
-
-### Registration Page
-
-![Registration Page](images/register.jpg)
-
-### Dashboard
-
-![Dashboard](images/dashboard.jpg)
-
 ## Main Modules
 
 ### 1. User Authentication
@@ -172,6 +158,3 @@ The system was developed using a modular approach with separate components for:
 
 GitHub: [@jarin-tasnim-eara](https://github.com/jarin-tasnim-eara)
 
-**Jarin Tasnim Eara**
-
-GitHub: [@jarin-tasnim-eara](https://github.com/jarin-tasnim-eara)
